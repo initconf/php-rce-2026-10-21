@@ -1,0 +1,6 @@
+[package]
+description = Detection heuristics for the PHP 2026-10-21 critical RCEs (CVE-2026-109618 OOM corruption, CVE-2026-109619 stale global state incl. session.upload_progress): multipart POST shapes, upload-progress field, crashed-worker outcomes. Plaintext HTTP only.
+script_dir = scripts
+version = 0.1
+tags = php, http, cve-2026-109618, cve-2026-109619, rce
+test_command = ( cd tests && btest -d )
